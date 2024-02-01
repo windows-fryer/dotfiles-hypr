@@ -1,0 +1,23 @@
+* {
+	transition-duration: 100ms;
+}
+
+window, #input, #scroll {
+	margin: 5px;
+	border: 1px solid rgba(192, 192, 192, 0.3);
+	background-color: rgba(20, 20, 20, 1);
+}
+
+#text {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+#entry:selected {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#text:selected {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: underline;
+}
+
