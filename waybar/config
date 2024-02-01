@@ -1,0 +1,29 @@
+{
+    "margin": "5 5 0 5",
+    "spacing": 5, // Gaps between modules (4px)
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["pulseaudio", "cpu", "memory", "clock", "tray"],
+    "tray": {
+        "spacing": 5
+    },
+    "clock": {
+	"interval": 1,
+        "format": "{:%r}",
+	"format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+        "format": "cpu {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "mem {}%"
+    },
+    "pulseaudio": {
+        "format": "vol {volume}%     {format_source}",
+	"format-muted": "vol muted     {format_source}",
+        "format-source": "mic {volume}%",
+        "format-source-muted": "mic muted",
+	"on-click": "pavucontrol",	    
+    },
+}
+
