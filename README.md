@@ -1,2 +1,2 @@
-# dotfiles
-Hyprland dotfiles. Made over a span of 3 days.
+# dotfiles-hypr
+Hyprland dotfiles made over a span of 3 days.
